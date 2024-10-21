@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6EMHBS0FF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y6EMHBS0FF');
+
+      gtag('event', 'login', {'method': 'Google'});
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Web font from Googleapis-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>My Portofolio</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="./linkpics/ic_menu.svg" alt="menu" class="menu-btn"/>
+      <div class="menu">
+        <a href="#section1" class="link">hello</a>
+        <a href="#section2" class="link">about</a>
+        <a href="#footer" class="link">contact</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="section1">
+        <div class="block">
+          <img src="./images/alay.jpg" alt="image" class="profil"/>
+
+          <h2 class="ttl name">Moh. aliyul himam </h2>
+
+          <h2 class="txt para1">
+            assalamu'alaikum, saya seorang siswa SMKN 8 JEMBER
+          </h2>
+        </div>
+        <div class="bg"></div>
+      </section>
+
+  
+
+      <section id="section2">
+        <div class="cards abt">
+          <h2 class="ttl">About</h2>
+          <p class="txt">
+              hai👋, Saya adalah seorang siswa SMKN 8 JEMBER 
+            saya lahir di jember pada tanggal 7 September 2008, saat ini saya
+            kelas 11 jurusan RPL(rekayasa perangkat lunak)
+          </p>
+
+        </div>
+
+        <div class="block">
+          <ul class="competences cmps-1">
+            <li><h3 class="cmp-ttl">Languages</h3></li>
+            <li class="competence">•<span>JavaScript</span></li>
+            <li class="competence">•<span>PHP</span></li>
+            <li class="competence">•<span>HTML</span></li>
+            <li class="competence">•<span>CSS</span></li>
+          </ul>
+
+          <ul class="competences cmps-2">
+            <li><h3 class="cmp-ttl">Frameworks</h3></li>
+            <li class="competence">•<span>Laravel</span></li>
+            <li class="competence">•<span>Bootstrap</span></li>
+            
+          </ul>
+
+          <ul class="competences cmps-3">
+            <li><h3 class="cmp-ttl">Skills</h3></li>
+            <li class="competence">•<span>mancing</span></li>
+            <li class="competence">•<span>pegang goldlane</span></li>
+            <li class="competence">•<span>pegang retri</span></li>
+            <li class="competence">•<span>main poveus</span></li>
+            <li class="competence">•<span>main moskov</span></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="cards">
+        <h2 class="ttl"> Get Started</h2>
+        <p class="txt">
+          jika ingin lebih mengenal saya isilah tabel dibawah ini
+        </p>
+        
+      </div>
+
+      <form class="form">
+        <div class="inputs">
+          <input type="text" class="mail-name" name="name" placeholder="your name" required maxlength="30">
+          <input type="email" class="mail-name" name="email" placeholder="your email" required maxlength="30">
+          <textarea class="msg" name="message" placeholder="Enter your message here" required maxlength="500"></textarea>
+        </div>
+
+        <button type="submit" class="btn cv-btn"> Start collaboration </button>
+      </form>
+      
+       </div>
+    </footer>
+    <script src="mobile_menu.js"></script>
+    <script src="projects_mobile_desktop.js"></script>
+  </body>
+</html>
